@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+button{
+    background-color: aquamarine;
+    color: blueviolet;
+    border: solid black 1px;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+
+button:active{
+    transform: translateY(4px);
+}
+
+form{
+    border:solid black 1px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
